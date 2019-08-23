@@ -26,4 +26,5 @@
 
 #### § Relationships Between Variables
 
-* Scatterplots ::
+* Scatterplots :: ["**scatter.ipynb**"] ::
+[*@1'58 "`.dropna()` will drop any rows from this table that contain NA values - NaN's"*] [*@2'37 "We can use the `.describe()` function again"*] [*@3'15 "I'm going to start small ... with a sample of just 1000 values" (from full dataset of ~400k)*] [*@4'39 "I'm going to (just) change the limits of the display to focus in on the part we're most interested in" (to exclude outliers)*] [*@4'47 "The other thing I'm going to do, in order to break up these columns of data, is to `.Jitter()` the data"*] [*@6'40 "One simple way to fix [saturation ...else outliers are over-emphasised] is just to adjust the alpha setting and the size of the markers"*] [*@7'38 "I'm going to increase the size of the sample one more time ... to 100k"*]
